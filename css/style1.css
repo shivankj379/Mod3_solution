@@ -1,0 +1,101 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #c98715;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fce29e;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 60px;
+    height: 80px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: #7d1913;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #fe9797;
+}
+
+#nav-list {
+    background-color: #e4af34;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#nav-list a {
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: #202020;
+    background-color: #fce29e;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #7d1913;
+}
+
+
+/** END HEADER */
+
+
+/** HOME PAGE **/
+
+#main-content {
+    width: 90%;
+    margin-bottom: 330px;
+}
+
+#main-content h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+
+
+#main-content .col-xs-12 {
+	background-color: #c98715;
+	border: 1px solid black;
+	margin-bottom: 15px;
+	box-shadow: 0px 0px 10px;
+}
+
+/** END HOME PAGE **/
